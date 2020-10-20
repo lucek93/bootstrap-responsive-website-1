@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/e42ef226d8.js" crossorigin="anonymous"></script>
+    <title>SH - Software House</title>
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+    <nav id ="navbar-example" class="navbar navbar-expand-lg navbar-light bg-light py-4 fixed-top">
+       <div class="container">
+        <a class="navbar-brand px-4" href="#"><i class="fas fa-code orange-color"></i> Software House</a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#home">Home</a>
+            <a class="nav-link" href="#about">O nas</a>
+            <a class="nav-link" href="#team">Zespół</a>
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </div>
+        </div>
+       </div>
+      </nav>
+
+      <header id="home">
+          <div class="hero-shadow">
+              <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
+                  <p class="text-uppercase name">Software House</p>
+                  <p class="header-text mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  <a href="#aboutus" class="btn btn-outline-light">Poznaj nas lepiej</a>
+              </div>
+          </div>
+      </header>
+
+      <main>
+          <section id="about" class="scroll-fix">
+        <div class="container py-5 about-cards">
+            <div class="row text-center">
+                <div class="col-12 col-md-6 col-lg-3 order-sm-1 order-md-1 order-lg-1">
+                    <div class="about-card m-3 p-4 p-lg-5 border text-dark">
+                        <h3>Jakość</h3>
+                        <p class="about-icon"><i class="fas fa-check"></i></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vero.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-sm-2 order-md-2 order-lg-2">
+                    <div class="about-card m-3 p-4 p-lg-5 border bg-dark text-light">
+                        <h3>Usługi</h3>
+                        <p class="about-icon"><i class="fas fa-user-friends"></i></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vero.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-sm-3 order-md-4 order-lg-3">
+                    <div class="about-card m-3 p-4 p-lg-5 border text-dark">
+                        <h3>Sprzęt</h3>
+                        <p class="about-icon"><i class="fas fa-server"></i></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vero.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 order-sm-4 order-md-3 order-lg-4">
+                    <div class="about-card m-3 p-4 p-lg-5 border bg-dark text-light">
+                        <h3>Ceny</h3>
+                        <p class="about-icon"><i class="fas fa-dollar-sign"></i></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container about-info py-5 text-center">
+            <div class="row">
+                <div class="col">
+                    <p class="display-3 orange-color text-uppercase"> Czym się wyróżniamy?</p>
+                    <hr class="mt-4 mb-5 w-50 mx-auto">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left text-dark text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Szybki czas realizacji
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nobis deserunt ab corporis ipsa, ut quidem dicta porro mollitia aut, ullam at sed asperiores maiores explicabo nihil molestiae illum dolorem!
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed text-dark text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Najlepsza jakość usług
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum pariatur cumque ipsam, delectus consequuntur provident, vitae quaerat harum quam tempora magni quas quo cum temporibus ratione excepturi eligendi ducimus fugit.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed text-dark text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Doświadczony zespół
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, eligendi asperiores quae quas a inventore, quo, pariatur quibusdam ipsam nemo porro assumenda dolorum esse? Quod neque dolore error excepturi et.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="scroll-fix">
+        <div class="container text-center">
+            <p class="display-3 orange-color text-uppercase">Zespół</p>
+            <hr class="mt-4 mb-5 w-50 mx-auto">
+            <p class="my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut at voluptas beatae obcaecati, autem quisquam necessitatibus perferendis cupiditate dolore totam odio. Ad voluptatem ipsam placeat laborum? Debitis commodi sunt assumenda.</p>
+            <div class="row row-cols-1 row-cols-md-2 text-justify">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="./img/m1.jpg" class="card-img-top" alt="CEO">
+                    <div class="card-body">
+                      <h3 class="card-title text-uppercase">CEO</h5>
+                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus a sapiente deserunt quidem aliquam doloremque culpa recusandae molestias natus consequatur placeat, distinctio minima beatae? Debitis, earum. Consectetur doloremque tenetur quo!</p>
+                    </div>
+                    <div class="card-footer row justify-content-around mx-0 py-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="./img/k1.jpg" class="card-img-top" alt="Backend Developer">
+                    <div class="card-body">
+                      <h3 class="card-title text-uppercase">Backend Developer</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nihil delectus suscipit aspernatur quaerat quod placeat ipsa nulla at provident maxime voluptatum facere itaque, consequuntur perspiciatis impedit tempora aperiam sed?</p>
+                    </div>
+                    <div class="card-footer row justify-content-around mx-0 py-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="./img/m2.jpg" class="card-img-top" alt="Frontend Developer">
+                    <div class="card-body">
+                      <h3 class="card-title text-uppercase">Frontend Developer</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, blanditiis eum explicabo nemo soluta exercitationem! Dignissimos, dolorem recusandae? Nemo reiciendis nostrum, doloribus voluptas nobis ab vero illo dolor fugit aliquid.</p>
+                    </div>
+                    <div class="card-footer row justify-content-around mx-0 py-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="./img/k2.jpg" class="card-img-top" alt="Grafik">
+                    <div class="card-body">
+                      <h3 class="card-title text-uppercase">Grafik</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum rerum, perferendis eaque et unde commodi ex dignissimos, praesentium, sint inventore ipsa sed mollitia ad? Architecto quis voluptate dicta at mollitia?</p>
+                    </div>
+                    <div class="card-footer row justify-content-around mx-0 py-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="contact" class="bg-dark text-light scroll-fix">
+        <div class="container text-center py-5">
+            <p class="display-3 mb-lg-5 text-uppercase">Napisz do nas</p>
+            <div class="row">
+                <div class="my-5 m-lg-0 col-lg-3 contact-info order-lg-1">
+                    <h3>Adres:</h3>
+                    <p>Software House</p>
+                    <p>ul. Langiewicza 500</p>
+                    <p>35-021 Rzeszów</p>
+                    <hr class="w-50 w-lg-75 mx-auto bg-light">
+                    <p><i class="fas fa-mobile-alt"></i>600 000 000</p>
+                    <p><i class="fas fa-phone"></i>600 00 00</p>
+                </div>
+                <div class="col-lg-9">
+                    <form action="">
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Imię i nazwisko">
+                        </div>
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-at"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="E-mail">
+                        </div>
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-comment-alt"></i>
+                                </span>
+                            </div>
+                            <textarea rows="6" class="form-control" placeholder="Treść wiadomości"></textarea>
+                        </div>
+                        <input type="submit" value="Wyślij" class="btn btn-light px-4 py-2 submit-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+      </main>
+
+      <footer class="bg-dark text-light border-top">
+            <p class="text-center py-4 m-0">&copy;2020 Software House</p>
+      </footer>
+
+
+  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script>
+        $(document).click(function (event) {
+            var clickover = $(event.target);
+            var _opened = $(".navbar-collapse").hasClass("show");
+            if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+                $(".navbar-toggler").click();
+            }
+        });
+    </script>
+  
+</body>
+</html>
